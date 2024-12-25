@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #f4f4f9;
+  }
+  
+  /* Dashboard Container */
+  .dashboard {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 30px 0;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Input and Button Section */
+  .search-section, .dropdown-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #2a2a3d;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+  }
+  
+  /* Card Style for Stock Details and Graph */
+  .stock-details, .stock-graph, .comparison-table {
+    background: #2a2a3d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #00d4ff;
+  }
+  
+  #stock-info {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #444;
+  }
+  
+  tbody tr:hover {
+    background-color: #333;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  /* Chart */
+  canvas {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    input, select, button {
+      margin: 5px 0;
+      width: 100%;
+    }
+  
+    .search-section, .dropdown-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
