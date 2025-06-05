@@ -1,6 +1,7 @@
 const API_KEY = '676bbd90cc93d8.26423498'; 
 const BASE_URL = 'https://www.alphavantage.co/query';
 let stockChart; 
+let stockna ;
 
 document.getElementById('search-btn').addEventListener('click', fetchStockData);
 document.getElementById('trending-stocks').addEventListener('change', handleTrendingStock);
