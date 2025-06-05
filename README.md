@@ -1,4 +1,4 @@
-Stock Tracker Dashboard
+#Stock Tracker Dashboard
 The Stock Tracker Dashboard is a modern web application that allows users to track real-time stock data, visualize price trends, and compare multiple stocks. Built using HTML, CSS, JavaScript, and external APIs, this dashboard delivers a sleek and interactive user experience.
 
 Features
