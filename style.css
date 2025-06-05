@@ -13,7 +13,9 @@ body {
     margin: auto;
     padding: 20px;
   }
-  
+  .addscrenn{
+      color : gray;
+  }
   /* Header Section */
   header {
     text-align: center;
